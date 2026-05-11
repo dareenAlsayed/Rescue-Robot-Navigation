@@ -14,14 +14,15 @@ The system explores valid paths while avoiding blocked cells and locating surviv
 • Heuristic evaluation  
 • Explicit open and closed lists  
 
-## Example Grid 
+## Example Grid
+```prolog
 grid([
   [e, e, s, d, e],
   [r, d, e, e, e],
   [e, f, e, d, s],
   [e, e, e, e, e]
 ]).
-
+```
 ## Grid Symbols
 r  → Robot  
 s  → Survivor  
